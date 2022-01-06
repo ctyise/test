@@ -1,0 +1,138 @@
+﻿body {
+  margin:0px;
+  background-color:rgba(238, 238, 238, 1);
+  background-image:none;
+  position:static;
+  left:auto;
+  width:717px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u47_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:100px;
+  background:inherit;
+  background-color:rgba(242, 242, 242, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u47 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:100px;
+  display:flex;
+}
+#u47 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u47_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u48_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:229px;
+  height:33px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'等线 Bold', '等线', sans-serif;
+  font-weight:700;
+  font-style:normal;
+}
+#u48 {
+  border-width:0px;
+  position:absolute;
+  left:100px;
+  top:100px;
+  width:229px;
+  height:33px;
+  display:flex;
+  font-family:'等线 Bold', '等线', sans-serif;
+  font-weight:700;
+  font-style:normal;
+}
+#u48 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u48_text {
+  border-width:0px;
+  white-space:nowrap;
+  text-transform:none;
+}
+#u49_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:617px;
+  height:594px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-size:14px;
+  line-height:18px;
+}
+#u49 {
+  border-width:0px;
+  position:absolute;
+  left:100px;
+  top:183px;
+  width:617px;
+  height:594px;
+  display:flex;
+  font-size:14px;
+  line-height:18px;
+}
+#u49 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u49_text {
+  border-width:0px;
+  white-space:nowrap;
+  text-transform:none;
+}

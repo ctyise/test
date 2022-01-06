@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>EC导入跟进记录</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/ec导入跟进记录/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/ec导入跟进记录/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u46" class="ax_default box_2">
+        <div id="u46_div" class=""></div>
+        <div id="u46_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u47" class="ax_default _一级标题">
+        <div id="u47_div" class=""></div>
+        <div id="u47_text" class="text ">
+          <p><span>一、EC导入跟进记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u48" class="ax_default _文本段落">
+        <div id="u48_div" class=""></div>
+        <div id="u48_text" class="text ">
+          <p style="line-height:18px;"><span style="font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans', sans-serif;font-weight:700;color:rgba(0, 0, 0, 0.996078431372549);">0、需求目标</span><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br>1）销售为了提高效率，采用EC进行客户跟进，已经实现从CRM导出客户信息到EC；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">2）当前问题：A、跟进记录留存在外网可能丢失；B、跟进记录回转内网更加便于进行客户统计分析；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">3）本需求旨在将CRM的跟进记录也导出到CRM中；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br></span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans', sans-serif;font-weight:700;color:rgba(0, 0, 0, 0.996078431372549);">1、增加上传按钮</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">1）在CRM后台，添加回访记录模块，【保存跟进记录】按钮右边，增加【保存跟进记录并导入EC】按钮；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">2）点击【保存跟进记录并导入EC】按钮，执行原【保存跟进记录】行为，并调用接口将该记录同步至EC；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">3）销售人员可选择仅保存不导入EC，也可以选择保存并导入EC；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br></span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans', sans-serif;font-weight:700;color:rgba(0, 0, 0, 0.996078431372549);">2、导入EC接口链接</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">1）C#及相关SDK链接：</span><a id="u49" class="link"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:#0000FF;">https://open.workec.com/newdoc/doc/109Afvd2ls</span></a><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">2）导入跟进记录接口链接：</span><a id="u50" class="link"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:#0000FF;">https://open.workec.com/newdoc/doc/QvZKi6kAF；</span></a></p><p style="line-height:24px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">3）精确查询客户接口链接：</span><a id="u51" class="link"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:#0000FF;">https://open.workec.com/newdoc/doc/QvcY2FY0y</span></a><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br></span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans', sans-serif;font-weight:700;color:rgba(0, 0, 0, 0.996078431372549);">3、接口字段</span></p><p style="line-height:18px;"><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">1）接口类型：POST；接口地址：https://open.workec.com/trajectory/saveUserTrajectory</span></p><p style="line-height:18px;"><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">2）访问接口需要传递的参数有：</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">　　id&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ：字符串，用户自定义主键，用来唯一标识一条记录，插入完成后在返回结果一同返回</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">　　crmId&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ：长整型，客户ID</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">　　contactTime ：可选，字符串，联系时间, 默认为当前系统时间</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">　　userId&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ：字符串，操作人ID</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">　　content&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ：字符串，跟进记录, 字长为1000</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br></span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans', sans-serif;font-weight:700;color:rgba(0, 0, 0, 0.996078431372549);">4、导入说明</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">1）接口传参的id为CRM后台的跟进记录id，用于避免多次重复导入（例如销售员多按了几次保存）：</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">2）对已经导入到EC的跟进记录，在数据库中标记为已导出到EC；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">3）crmId需要将CRM客户与EC客户之间做关联，如无该客户，则新建客户；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">4）content中，</span><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">超过1000字的跟进记录，采取截断形式取前1000字；</span></p><p style="line-height:18px;"><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">5）</span><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">导入前，先通过手机号查询是否存在该客户，若不存在则提示【请先导入客户到EC】，终止操作；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">6）</span><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">导入成功时，执行原</span><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">【保存跟进记录】后续流程；</span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">7）导入失败时，提示【导入EC失败，请联系管理员】；</span></p><p style="line-height:18px;"><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br></span></p><p style="line-height:18px;"><span style="font-family:'Nunito Sans Bold', 'Nunito Sans Regular', 'Nunito Sans', sans-serif;font-weight:700;color:rgba(0, 0, 0, 0.996078431372549);">5、其它</span></p><p style="line-height:18px;"><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);">1）记录每次同步的日志，无需展示到管理后台，技术可查阅即可；</span></p><p style="line-height:18px;"><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br></span></p><p style="line-height:18px;"><span style="font-family:'Microsoft Tai Le', sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.996078431372549);"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u52" class="ax_default box_2">
+        <div id="u52_div" class=""></div>
+        <div id="u52_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u53" class="ax_default box_2">
+        <div id="u53_div" class=""></div>
+        <div id="u53_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u54" class="ax_default _图片_">
+        <img id="u54_img" class="img " src="images/ec导入跟进记录/u54.png"/>
+        <div id="u54_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片 ) -->
+      <div id="u55" class="ax_default _图片_">
+        <img id="u55_img" class="img " src="images/ec导入跟进记录/u55.png"/>
+        <div id="u55_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u56" class="ax_default box_2">
+        <div id="u56_div" class=""></div>
+        <div id="u56_text" class="text ">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u57" class="ax_default _连接">
+        <img id="u57_seg0" class="img " src="images/ec导入跟进记录/u57_seg0.svg" alt="u57_seg0"/>
+        <img id="u57_seg1" class="img " src="images/ec导入跟进记录/u57_seg1.svg" alt="u57_seg1"/>
+        <img id="u57_seg2" class="img " src="images/ec导入跟进记录/u57_seg2.svg" alt="u57_seg2"/>
+        <img id="u57_seg3" class="img " src="images/ec导入跟进记录/u57_seg3.svg" alt="u57_seg3"/>
+        <div id="u57_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u58" class="ax_default box_2">
+        <div id="u58_div" class=""></div>
+        <div id="u58_text" class="text ">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u59" class="ax_default box_1">
+        <div id="u59_div" class=""></div>
+        <div id="u59_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u60" class="ax_default box_1">
+        <div id="u60_div" class=""></div>
+        <div id="u60_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u61" class="ax_default box_1">
+        <div id="u61_div" class=""></div>
+        <div id="u61_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u62" class="ax_default box_1">
+        <div id="u62_div" class=""></div>
+        <div id="u62_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u63" class="ax_default box_1">
+        <div id="u63_div" class=""></div>
+        <div id="u63_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u64" class="ax_default box_1">
+        <div id="u64_div" class=""></div>
+        <div id="u64_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u65" class="ax_default _连接">
+        <img id="u65_seg0" class="img " src="images/ec导入跟进记录/u65_seg0.svg" alt="u65_seg0"/>
+        <img id="u65_seg1" class="img " src="images/ec导入跟进记录/u65_seg1.svg" alt="u65_seg1"/>
+        <img id="u65_seg2" class="img " src="images/ec导入跟进记录/u65_seg2.svg" alt="u65_seg2"/>
+        <div id="u65_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u66" class="ax_default _连接">
+        <img id="u66_seg0" class="img " src="images/ec导入跟进记录/u66_seg0.svg" alt="u66_seg0"/>
+        <img id="u66_seg1" class="img " src="images/ec导入跟进记录/u66_seg1.svg" alt="u66_seg1"/>
+        <img id="u66_seg2" class="img " src="images/ec导入跟进记录/u66_seg2.svg" alt="u66_seg2"/>
+        <div id="u66_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u67" class="ax_default _连接">
+        <img id="u67_seg0" class="img " src="images/ec导入跟进记录/u67_seg0.svg" alt="u67_seg0"/>
+        <img id="u67_seg1" class="img " src="images/ec导入跟进记录/u67_seg1.svg" alt="u67_seg1"/>
+        <img id="u67_seg2" class="img " src="images/ec导入跟进记录/u67_seg2.svg" alt="u67_seg2"/>
+        <div id="u67_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接) -->
+      <div id="u68" class="ax_default _连接">
+        <img id="u68_seg0" class="img " src="images/ec导入跟进记录/u68_seg0.svg" alt="u68_seg0"/>
+        <img id="u68_seg1" class="img " src="images/ec导入跟进记录/u68_seg1.svg" alt="u68_seg1"/>
+        <img id="u68_seg2" class="img " src="images/ec导入跟进记录/u68_seg2.svg" alt="u68_seg2"/>
+        <div id="u68_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
